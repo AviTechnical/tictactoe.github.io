@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- Starting Page -->
+        <div id="startingPage">
+            <h2>Tic Tac Toe</h2>
+            <div id="line"></div>
+            <h4>Select Which You Want To Be?</h4>
+            <div id="button">
+                <button id="playerX" class="choose">Player ( X )</button>
+                <button id="playerO" class="choose">Player ( O )</button>
+            </div>
+        </div>
+        <!-- Main Page -->
+        <div id="mainPage">
+            <div id="headerBtns">
+                <button id="">X Turn</button>
+                <button id="O_Turn">O Turn</button>
+                <div id="showChange"></div>
+            </div>
+            <div id="gameBoard">
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+            </div>
+        </div>
+        <!-- WInner Page -->
+        <div id="winner">
+            <h2 id="winnerName">Player X Win The Game!</h2>
+            <div id="button">
+                <button id="quit">Play Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
